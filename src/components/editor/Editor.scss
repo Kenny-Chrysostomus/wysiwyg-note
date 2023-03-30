@@ -1,0 +1,74 @@
+.editor {
+    flex: 1;
+    background-color: #fdfdfd;
+    padding: 16px 20px;
+
+    .note-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .titleInput {
+            font-size: 40px;
+            width: 90%;
+            border: none;
+            outline: none;
+            background: transparent;
+            margin-left: 12px;
+            margin-bottom: 8px;
+        }
+    }
+
+    .trash {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: gray;
+        .trashButton {
+            display: flex;
+            align-items: center;
+            margin-right: 3.6%;
+            &:hover {
+                color: black;
+            }
+            .trashButtonIcon {
+                width: 24px;
+            }
+            .trashButtonText {
+                font-size: 14px;
+                width: 90px;
+            }
+        }
+    }
+
+    .backupStatus {
+        display: flex;
+        width: 160px;
+        margin-bottom: 8px;
+        align-items: center;
+        .backupStatusButton {
+            width: 16px;
+            margin-right: 4px;
+            color: gray;
+        }
+
+        .backupStatusMsg {
+            color: gray;
+            font-size: 12px;
+        }
+    }
+
+    .ql-toolbar{
+        border: none;
+    }
+
+    .ql-container {
+        border: none;
+        // background-color: #eee; //check用
+        height: calc(100vh - 130px);
+        font-size:medium;
+        
+        h1,h2 {
+            font-weight: 540;
+        }
+    }
+}
